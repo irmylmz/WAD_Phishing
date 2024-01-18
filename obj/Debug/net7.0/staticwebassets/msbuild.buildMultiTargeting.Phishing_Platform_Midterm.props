@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Phishing_Platform_Midterm.props" />
+</Project>

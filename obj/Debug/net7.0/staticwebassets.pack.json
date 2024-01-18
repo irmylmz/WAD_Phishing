@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/obj/Debug/net7.0/scopedcss/projectbundle/Phishing_Platform_Midterm.bundle.scp.css",
+      "PackagePath": "staticwebassets/Phishing_Platform_Midterm.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/css/admin.css",
+      "PackagePath": "staticwebassets/css/admin.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/css/instagram.css",
+      "PackagePath": "staticwebassets/css/instagram.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/css/netflix.css",
+      "PackagePath": "staticwebassets/css/netflix.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/css/udemy.css",
+      "PackagePath": "staticwebassets/css/udemy.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/.DS_Store",
+      "PackagePath": "staticwebassets/img/instagram/.DS_Store"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/apple-button.png",
+      "PackagePath": "staticwebassets/img/instagram/apple-button.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/fb.png",
+      "PackagePath": "staticwebassets/img/instagram/fb.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/googleplay-button.png",
+      "PackagePath": "staticwebassets/img/instagram/googleplay-button.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/logo.png",
+      "PackagePath": "staticwebassets/img/instagram/logo.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/phone-slide-1.png",
+      "PackagePath": "staticwebassets/img/instagram/phone-slide-1.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/instagram/phone.png",
+      "PackagePath": "staticwebassets/img/instagram/phone.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/netflix/.DS_Store",
+      "PackagePath": "staticwebassets/img/netflix/.DS_Store"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/netflix/background.jpg",
+      "PackagePath": "staticwebassets/img/netflix/background.jpg"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/netflix/fb-icon.png",
+      "PackagePath": "staticwebassets/img/netflix/fb-icon.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/img/netflix/logo.png",
+      "PackagePath": "staticwebassets/img/netflix/logo.png"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/iremnuryilmaz/RiderProjects/Phishing_Platform_Midterm/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Phishing_Platform_Midterm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Phishing_Platform_Midterm.props",
+      "PackagePath": "build\\Phishing_Platform_Midterm.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Phishing_Platform_Midterm.props",
+      "PackagePath": "buildMultiTargeting\\Phishing_Platform_Midterm.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Phishing_Platform_Midterm.props",
+      "PackagePath": "buildTransitive\\Phishing_Platform_Midterm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

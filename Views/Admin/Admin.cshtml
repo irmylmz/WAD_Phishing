@@ -1,0 +1,321 @@
+﻿@model List<Phishing_Platform_Midterm.Entities.User>
+@{
+    ViewData["Title"] = "Admin Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JmKp16bpUJr7qDJdXp7TzGHd2hEqZnn2Mq6H6BCQqPZ9dIZZ9gPbWy2uZl7/JtI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js library before your script -->
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true"/> 
+    <title>Admin</title>
+    
+</head>
+<body>
+    <!-- Dashboard -->
+    <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
+        <!-- Vertical Navbar -->
+        <nav class="navbar show navbar-vertical h-lg-screen navbar-expand-lg px-0 py-3 navbar-light bg-white border-bottom border-bottom-lg-0 border-end-lg" id="navbarVertical">
+            <div class="container-fluid">
+                <!-- Toggler -->
+                <button class="navbar-toggler ms-n2" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse" aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Brand -->
+                <a class="navbar-brand py-lg-2 mb-lg-5 px-lg-6 me-0" href="#">
+                    <img src="https://preview.webpixels.io/web/img/logos/clever-primary.svg" alt="...">
+                </a>
+                <!-- User menu (mobile) -->
+                <div class="navbar-user d-lg-none">
+                    <!-- Dropdown -->
+                    <div class="dropdown">
+                        <!-- Toggle -->
+                        <a href="#" id="sidebarAvatar" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="avatar-parent-child">
+                                <img alt="Image Placeholder" src="https://logos.textgiraffe.com/logos/logo-name/Admin-designstyle-pastel-m.png" class="avatar avatar- rounded-circle">
+                                <span class="avatar-child avatar-badge bg-success"></span>
+                            </div>
+                        </a>
+                        <!-- Menu -->
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="sidebarAvatar">
+                            <a href="#" class="dropdown-item">Profile</a>
+                            <a href="#" class="dropdown-item">Settings</a>
+                            <a href="#" class="dropdown-item">Billing</a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item">Logout</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="sidebarCollapse">
+                    <!-- Navigation -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-house"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-bar-chart"></i> Analitycs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-people"></i> Users
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Divider -->
+                    <hr class="navbar-divider my-5 opacity-20">
+                    
+                    <!-- Push content down -->
+                    <div class="mt-auto"></div>
+                    <!-- User (md) -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-person-square"></i> Account
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-box-arrow-left"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main content -->
+        <div class="h-screen flex-grow-1 overflow-y-lg-auto">
+            <!-- Header -->
+            <header class="bg-surface-primary border-bottom pt-6">
+                <div class="container-fluid">
+                    <div class="mb-npx">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 col-12 mb-4 mb-sm-0">
+                                <!-- Title -->
+                                <h1 class="h2 mb-0 ls-tight">Admin Page</h1>
+                            </div>
+                            <!-- Actions -->
+                            <div class="col-sm-6 col-12 text-sm-end">
+                                <div class="mx-n1">
+                                    <a href="#" class="btn d-inline-flex btn-sm btn-neutral border-base mx-1">
+                                        <span class=" pe-2">
+                                            <i class="bi bi-pencil"></i>
+                                        </span>
+                                        <span>Edit</span>
+                                    </a>
+                                    <a href="#" class="btn d-inline-flex btn-sm btn-primary mx-1">
+                                        <span class=" pe-2">
+                                            <i class="bi bi-plus"></i>
+                                        </span>
+                                        <span>Create</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nav -->
+                        <ul class="nav nav-tabs mt-4 overflow-x border-0">
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active">All files</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- Main -->
+            <main class="py-6 bg-surface-secondary">
+                <div class="container-fluid">
+                    <!-- Card stats -->
+                    <div class="row g-6 mb-6">
+                        <div class="col-xl-3 col-sm-6 col-12">
+                            <div class="card shadow border-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Netflix</span>
+                                            <span class="h3 font-bold mb-0">@ViewBag.nCount</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-danger text-white text-lg rounded-circle">
+                                                <i class="bi bi-film"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-sm">
+                                        <span class="badge badge-pill bg-soft-success text-success me-2">
+                                            <i class="bi bi-arrow-up me-1"></i>
+                                        </span>
+                                        <span class="text-nowrap text-xs text-muted">Since last month</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12">
+                            <div class="card shadow border-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Instagram</span>
+                                            <span class="h3 font-bold mb-0">@ViewBag.iCount</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-primary text-white text-lg rounded-circle">
+                                                <i class="bi bi-instagram"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-sm">
+                                        <span class="badge badge-pill bg-soft-success text-success me-2">
+                                            <i class="bi bi-arrow-up me-1"></i>
+                                        </span>
+                                        <span class="text-nowrap text-xs text-muted">Since last month</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12">
+                            <div class="card shadow border-0">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Udemy</span>
+                                            <span class="h3 font-bold mb-0">@ViewBag.uCount</span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="icon icon-shape bg-success text-white text-lg rounded-circle">
+                                                <i class="bi bi-book"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 mb-0 text-sm">
+                                        <span class="badge badge-pill bg-soft-success text-success me-2">
+                                            <i class="bi bi-arrow-up me-1"></i>
+                                        </span>
+                                        <span class="text-nowrap text-xs text-muted">Since last month</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="card shadow border-0">
+                            <div class="card-body">
+                                <div class="row">
+                                    <h6>Pie Chart</h6>
+                                </div>
+                                <div class="chart-container">
+                                    <canvas id="pieChart" width="400" height="400"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js library before your script -->
+                    <script>
+                        var ctx = document.getElementById('pieChart').getContext('2d');
+                        var data = {
+                            datasets: [{
+                                data: [@ViewBag.iCount, @ViewBag.nCount, @ViewBag.uCount],
+                                backgroundColor: [
+                                    'rgb(93,96,236)',
+                                    'rgb(235,72,105)',
+                                    'rgb(92,201,141)'
+                                ]
+                            }],
+                            labels: [
+                                'Instagram',
+                                'Netflix',
+                                'Udemy'
+                            ]
+                        };
+                    
+                        var options = {
+                            cutoutPercentage: 50, // Adjust this value to control the size of the hole in the middle
+                            responsive: true
+                        };
+                    
+                        var myPieChart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: data,
+                            options: options
+                        });
+                    </script>
+
+
+                    <div class="card shadow border-0 mb-7 mt-4">
+                        <div class="card-header">
+                            <h5 class="mb-0">Users</h5>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-hover table-nowrap">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">E-mail</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Password</th>
+                                        <th scope="col">...</th>
+                                        <th scope="col">Page Name</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <!--foreach    -->
+                                    @foreach(var user in Model){ 
+                                    <tr>
+                                    <td>
+                                        <img alt="userImg" src="https://i.pinimg.com/564x/5d/69/42/5d6942c6dff12bd3f960eb30c5fdd0f9.jpg" class="avatar avatar-sm rounded-circle me-2">
+                                        <a class="text-heading font-semibold" href="#">
+                                            @user.Email
+                                        </a>
+                                    </td>
+                                    <td>
+                                        @user.RegistrationDate
+                                    </td>
+                                    <td>
+                                        <img alt="passwordImg" src="data:image/png;base64,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" class="avatar avatar-xs rounded-circle me-2">
+                                        <a class="text-heading font-semibold" href="#">
+                                            @user.Password
+                                        </a>
+                                    </td>
+                                    <td>
+                                        -
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-lg badge-dot">
+                                            <i class="bg-success"></i>@user.Sourcepage
+                                        </span>
+                                    </td>
+                                    <td class="text-end">
+                                        <a href="#" class="btn btn-sm btn-neutral">View</a>
+                                        <button type="button" class="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                }
+                                <!--foreach    -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer border-0 py-5">
+                            <span class="text-muted text-sm">Showing users.</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

