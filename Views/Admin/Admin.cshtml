@@ -67,12 +67,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#Analitycs">
                                 <i class="bi bi-bar-chart"></i> Analitycs
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#Users">
                                 <i class="bi bi-people"></i> Users
                             </a>
                         </li>
@@ -158,7 +158,7 @@
             </header>
             <!-- Main -->
             <main class="py-6 bg-surface-secondary">
-                <div class="container-fluid">
+                <div id="Analitycs" class="container-fluid">
                     <!-- Card stats -->
                     <div class="row g-6 mb-6">
                         <div class="col-xl-3 col-sm-6 col-12">
@@ -276,56 +276,57 @@
                     </script>
 
 
-                    <div class="card shadow border-0 mb-7 mt-4">
+                    <div id="Users" class="card shadow border-0 mb-7 mt-4">
                         <div class="card-header">
                             <h5 class="mb-0">Users</h5>
                         </div>
                         <div class="table-responsive">
                             <table class="table table-hover table-nowrap">
                                 <thead class="thead-light">
-                                    <tr>
-                                        <th scope="col">E-mail</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Password</th>
-                                        <th scope="col">...</th>
-                                        <th scope="col">Page Name</th>
-                                        <th></th>
-                                    </tr>
+                                <tr>
+                                    <th scope="col">E-mail</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Password</th>
+                                    <th scope="col">...</th>
+                                    <th scope="col">Page Name</th>
+                                    <th></th>
+                                </tr>
                                 </thead>
                                 <tbody>
                                 <!--foreach    -->
-                                    @foreach(var user in Model){ 
+                                @foreach (var user in Model)
+                                {
                                     <tr>
-                                    <td>
-                                        <img alt="userImg" src="https://i.pinimg.com/564x/5d/69/42/5d6942c6dff12bd3f960eb30c5fdd0f9.jpg" class="avatar avatar-sm rounded-circle me-2">
-                                        <a class="text-heading font-semibold" href="#">
-                                            @user.Email
-                                        </a>
-                                    </td>
-                                    <td>
-                                        @user.RegistrationDate
-                                    </td>
-                                    <td>
-                                        <img alt="passwordImg" src="data:image/png;base64,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" class="avatar avatar-xs rounded-circle me-2">
-                                        <a class="text-heading font-semibold" href="#">
-                                            @user.Password
-                                        </a>
-                                    </td>
-                                    <td>
-                                        -
-                                    </td>
-                                    <td>
-                                        <span class="badge badge-lg badge-dot">
-                                            <i class="bg-success"></i>@user.Sourcepage
-                                        </span>
-                                    </td>
-                                    <td class="text-end">
-                                        <a href="#" class="btn btn-sm btn-neutral">View</a>
-                                        <button type="button" class="btn btn-sm btn-square btn-neutral text-danger-hover">
-                                            <i class="bi bi-trash"></i>
-                                        </button>
-                                    </td>
-                                </tr>
+                                        <td>
+                                            <img alt="userImg" src="https://i.pinimg.com/564x/5d/69/42/5d6942c6dff12bd3f960eb30c5fdd0f9.jpg" class="avatar avatar-sm rounded-circle me-2">
+                                            <a class="text-heading font-semibold" href="#">
+                                                @user.Email
+                                            </a>
+                                        </td>
+                                        <td>
+                                            @user.RegistrationDate
+                                        </td>
+                                        <td>
+                                            <img alt="passwordImg" src="data:image/png;base64,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" class="avatar avatar-xs rounded-circle me-2">
+                                            <a class="text-heading font-semibold" href="#">
+                                                @user.Password
+                                            </a>
+                                        </td>
+                                        <td>
+                                            -
+                                        </td>
+                                        <td>
+                                            <span class="badge badge-lg badge-dot">
+                                                <i class="bg-success"></i>@user.Sourcepage
+                                            </span>
+                                        </td>
+                                        <td class="text-end">
+                                            <a href="#" class="btn btn-sm btn-neutral">View</a>
+                                            <button type="button" class="btn btn-sm btn-square btn-neutral text-danger-hover">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
                                 }
                                 <!--foreach    -->
                                 </tbody>
